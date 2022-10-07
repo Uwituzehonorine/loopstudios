@@ -107,14 +107,16 @@ header nav ol li a{
     background-color: white;
     margin-right: 300px;
     margin-top: 70px;  
-   gap: 100%; 
-   padding-right: 80px;
    
+   padding-right: 80px;
+   background-repeat: no-repeat;
     
     
 }
 .picwo{
     display: flex;
+   
+    
    
    
    
@@ -145,9 +147,9 @@ header nav ol li a{
 }
 .pic1{
    
-    width: 30%;
+    width: 20%;
     height: 70vh;
-    margin-left: 100px;
+  
     margin-bottom: 100px;
    
     background-image: url(images/desktop/image-deep-earth.jpg);
@@ -156,31 +158,35 @@ header nav ol li a{
 .pic1 p{
     color: white;
     margin-top: 350px;
-    padding-left: 20px;
+    
 }
 .org{
+    width: 100%;
     display: flex;
+    gap: 2%;
+    margin-left: 80px;
     
 }
 .pic2{
    
-    width: 30%;
+    width: 20%;
     height: 70vh;
-    margin-left: 100px;
+    
     /* margin-bottom: 100px; */
     background-image: url(images/desktop/image-night-arcade.jpg);
+    
     
 }
 .pic2 p{
     color: white;
     margin-top: 350px;
-    padding-left: 20px;
+    
 }
 .pic3{
    
-    width: 30%;
+    width: 20%;
     height: 70vh;
-    margin-left: 100px;
+    
     /* margin-bottom: 100px; */
     background-image: url(images/desktop/image-soccer-team.jpg);
     
@@ -188,13 +194,13 @@ header nav ol li a{
 .pic3 p{
     color: white;
     margin-top: 350px;
-    padding-left: 20px;
+   
 }
 .pic4{
    
-    width: 30%;
+    width: 20%;
     height: 70vh;
-    margin-left: 100px;
+   
     /* margin-bottom: 100px; */
     background-image: url(images/desktop/image-grid.jpg);
     
@@ -202,7 +208,7 @@ header nav ol li a{
 .pic4 p{
     color: white;
     margin-top: 350px;
-    padding-left: 20px;
+   
 }  
 .picture2{
     width: 100%;
@@ -210,21 +216,22 @@ header nav ol li a{
     padding-right: 80px;
     background-color: white;
    margin-right: 100px;
-    margin-top: 5px;   
+      
     
 }
 .orgin{
     width: 100%;
     display: flex;
-    gap: -16%;
+    gap: 2%;
+    margin-left: 80px;
    
 
 }
 .pict1{
    
-    width: 30%;
+    width: 20%;
     height: 70vh;
-    margin-left: 100px;
+    
     margin-bottom: 100px;
     background-image: url(images/desktop/image-from-above.jpg);
     
@@ -232,13 +239,13 @@ header nav ol li a{
 .pict1 p{
     color: white;
     margin-top: 350px;
-    padding-left: 20px;
+   
 }
 .pict2{
    
-    width: 30%;
+    width: 20%;
     height: 70vh;
-    margin-left: 100px;
+    
     margin-bottom: 100px;
     background-image: url(images/desktop/image-pocket-borealis.jpg);
     
@@ -250,9 +257,9 @@ header nav ol li a{
 }
 .pict3{
    
-    width: 30%;
+    width: 20%;
     height: 70vh;
-    margin-left: 100px;
+    
     margin-bottom: 100px;
     background-image: url(images/desktop/image-curiosity.jpg);
     
@@ -260,7 +267,7 @@ header nav ol li a{
 .pict3 p{
     color: white;
     margin-top: 350px;
-    padding-left: 20px;
+    
     
 }
 .pict3.p.a:hover{
@@ -269,17 +276,17 @@ header nav ol li a{
 }
 .pict4{
    
-    width: 30%;
+    width: 20%;
     height: 70vh;
-    margin-left: 100px;
-    margin-bottom: 100px;
+   
+    margin-bottom: 50px;
     background-image: url(images/desktop/image-fisheye.jpg);
     
 }
 .pict4 p{
     color: white;
     margin-top: 350px;
-    padding-left: 20px;
+    
 }
 footer{
     width: 100%;
@@ -324,9 +331,12 @@ footer img{
    justify-items: auto;
 } */
 .icons{
-    margin-left: 300px;
-    background-color: aqua;
+    /* margin-left: 300px; */
+   
 
+}
+.icons img{
+    gap: 2%;
 }
 .icons a{
     gap: -2%;
